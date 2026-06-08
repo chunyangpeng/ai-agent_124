@@ -1,8 +1,21 @@
+# 🧠 Node.js 功能整合專案
 
-選題清單: 1、2、4、5
-第一題: 主程式為 main_chat_bot.js
-第二題: 主程式為 main_calculator.js
-第四題: 主程式為 function_call.js，執行結果如下:
+本專案包含多個練習題，主要展示聊天機器人、計算機與 Function Calling（工具呼叫）等功能。
+
+---
+
+## 📌 選題清單
+
+- 題目 1 → `main_chat_bot.js`
+- 題目 2 → `main_calculator.js`
+- 題目 4 → `function_call.js`
+- 題目 5 → （未展示）
+
+---
+
+
+
+第四題 function calling 執行結果: 
 
 ❯ node function_call.js
 
