@@ -9,10 +9,9 @@
 - 題目 1 → `main_chat_bot.js`
 - 題目 2 → `main_calculator.js`
 - 題目 4 → `function_call.js`
-- 題目 5 → （未展示）
+- 題目 5 → `enbeddings.js`, `similarity_test.js`
 
 ---
-
 
 
 第四題 function calling 執行結果: 
