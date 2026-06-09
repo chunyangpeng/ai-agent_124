@@ -2,7 +2,7 @@ import { getEmbeddings, cosineSimilarity } from './embeddings.js';
 
 const groups = [
   {
-    name: '第 1 組：意思相近的句子（貓咪主題）',
+    name: '第 1 組：意思相近的句子',
     sentences: ['我喜歡貓', '貓咪很可愛', '我養了一隻貓'],
   },
   {
@@ -10,7 +10,7 @@ const groups = [
     sentences: ['今天天氣很好', '我要去買菜', '電腦壞了'],
   },
   {
-    name: '第 3 組：自訂測試案例（程式設計主題）',
+    name: '第 3 組：自訂測試案例',
     sentences: ['學習程式設計很有趣', '寫程式可以解決問題', '今晚要吃火鍋'],
   },
 ];
@@ -36,7 +36,7 @@ async function main() {
     console.log();
   }
 
-  console.log('=== 分析結果 ===');
+  console.log('=== 預期結果 ===');
   console.log('✅ 第 1 組（貓咪主題）的句子語意相近，相似度應明顯高於其他組');
   console.log('✅ 第 2 組（意思不同）的句子各自獨立，相似度應相對較低');
   console.log('✅ 第 3 組中前兩句（程式設計）應比第三句（火鍋）彼此更相似');
